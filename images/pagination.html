@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagination</title>
+    <link rel="stylesheet" href="pagination.css">
+</head>
+<body>
+    <div class="container">
+        <div class="pagination">
+            <button class="btn1" onclick="backbtn()">Prev</button>
+            <ul>
+                <li class="link active" value="1" onclick="activeLink()">1</li>
+                <li class="link" value="2" onclick="activeLink()">2</li>
+                <li class="link" value="3" onclick="activeLink()">3</li>
+                <li class="link" value="4" onclick="activeLink()">4</li>
+                <li class="link" value="5" onclick="activeLink()">5</li>
+                <li class="link" value="6" onclick="activeLink()">6</li>
+            </ul>
+            <button class="btn1" onclick="nextbtn()">Next</button>
+        </div>
+    </div>
+    <div class="container1">
+        <h1>Multiple file upload</h1>
+        <input type="file" name="files" id="files" multiple>
+        <input type="button" id="btn_upload" value="upload" onclick="uploadFile()">
+    </div>
+    
+    <script src="pagination.js"></script>
+</body>
+</html>
