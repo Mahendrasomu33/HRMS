@@ -20,7 +20,7 @@ const createFileItemHTML = (file, index) => {
                 </div>
             </div>
             <button class="cancle-button">
-                <i class="bx bx-x">x</i>
+                <i class="bx bx-x"></i>
             </button>
         </div>
         <div class="file-progress-bar">
