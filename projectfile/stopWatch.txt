@@ -1,0 +1,8 @@
+Using language : html, css, javascript .
+
+1: we created a container in that container we created a time using h1 tag and three buttons. 
+
+2: using css we added some styles to  body and time and buttons. 
+
+3: later we wrote a function for time increament and three function for three buttons using set interval
+   we set time and using clear interval we clear the time.
