@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dark</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="darkmode.css">
+</head>
+<body>
+    <div class="hero">
+        <nav>
+            <h1>Hello</h1>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Portfolio</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">Hire Me</a></li>
+            </ul>
+            <img src="../images/wifi-off.jpg" id="icon">
+        </nav>
+        <div class="info">
+            <h2>I am <span>Ante</span> Amelia</h2>
+            <p>this one is very complicated,so dont think about this one do better one when we
+                <br>want so it is very useful. </p>
+            <a href="">Download CV</a>
+        </div>
+        <div class="img-box">
+            <img src="../images/man.png">
+        </div>
+        <div class="social-media">
+            <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href=""><i class="fa-brands fa-staylinked"></i></a>
+            <a href=""><i class="fa-solid fa-bowling-ball"></i></a>
+        </div>
+    </div>
+    
+    <script>
+        var icon = document.getElementById("icon");
+
+        icon.onclick = function(){
+            document.body.classList.toggle("dark-them");
+            if(document.body.classList.contains("dark-them")){
+                icon.src = "../images/man.png";
+            }
+            else{
+                icon.src = "../images/wifi-off.jpg";
+            }
+        }
+    </script>
+</body>
+</html>
