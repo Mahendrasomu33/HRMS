@@ -7,6 +7,7 @@ body {
     height: 100vh;
     margin: 0;
     background-color: #f0f0f0;
+    background: #515050;
 }
 
 .slider-container {
@@ -77,5 +78,30 @@ body {
 .slider-indicators .active {
     background: #333;
 }
-
+h2{
+    font-size: 40px;
+    color: rgb(51, 153, 92);
+    font-weight: bold;
+    font-style: underline;
+}
+h3{
+    color:rgb(119, 190, 11);
+    font-style: italic;
+}
+p{
+    color: rgb(16, 171, 24);
+    font-size: 30px;
+    font-weight: bold;
+}
+button{
+    background: greenyellow;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 6px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+u{
+    color: #cedb70;
+}
 

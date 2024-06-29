@@ -29,6 +29,7 @@ document.addEventListener('DOMContentLoaded', function() {
     prevButton.addEventListener('click', () => {
         if (currentIndex > 0) {
             currentIndex--;
+
             updateSliderPosition();
             updateIndicators();
         }
@@ -37,6 +38,7 @@ document.addEventListener('DOMContentLoaded', function() {
     nextButton.addEventListener('click', () => {
         if (currentIndex < slides.length - 1) {
             currentIndex++;
+            
             updateSliderPosition();
             updateIndicators();
         }
