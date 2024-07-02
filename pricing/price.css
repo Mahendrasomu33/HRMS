@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+:root{
+    --primart-one : rgb(232, 232, 61);
+}
+section{
+    background: var(--primart-one);
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    padding: 100px 0px;  
+}
+section h1{
+    font-size: 60px;
+    font-weight: 600;
+    padding: 10px 300px;
+}
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.card1{
+    background: #fff;
+    height: 550px;
+    padding: 40px;
+    width: 380px;
+    border-radius: 10px;
+    box-shadow: 1px 1px #fff;
+}
+.card1 .second{
+    color: var(--primart-one);
+}
+.card1 h3 span{
+    font-size: 60px;
+    margin-top: 80px;
+}
+.card1 p{
+    padding-bottom: 40px;
+}
+form{
+    padding-top: 30px;
+}
+input{
+    accent-color: var(--primart-one);
+    color: white;
+    height: 25px;
+    width: 45px;
+}
+.f1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card1 button{
+    background: var(--primart-one);
+    padding: 18px 100px;
+    font-size: 20px;
+    border: none;
+    border-radius: 30px;
+    margin-top: 80px;
+}
+.dq{
+    background-color: aliceblue;
+    height: 300px;
+}
+.comparing{
+    text-align: center;
+    padding: 120px 50px;
+}
+.comparing h1{
+    font-size: 50px;
+    padding: 0px 200px;
+    font-weight: 500;
+}
+.comparing p{
+    font-size: 20px;
+    color: rgb(120, 122, 125);
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  .tone th{
+    background: var(--primart-one);
+    padding: 40px 30px;
+  }
+tbody td{
+    padding: 16px;
+}
+tbody tr:nth-child(even){
+    background: rgb(239, 238, 238);
+}
+.biglite{
+    display: flex;
+}
+.content{
+    background: rgb(238, 236, 236);
+    color: black;
+    padding: 120px 50px 10px 80px;
+    align-content: baseline;
+}
+.content h1{
+    font-size: 50px;
+    text-align: left;
+    padding-bottom: 30px;
+}
+.content p{
+    font-size: 20px;
+    text-align: left;
+    padding-left: 0px;
+    padding-bottom: 50px;
+}
+.content button{
+    background: var(--primart-one);
+    padding: 16px 28px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 30px;
+}
+.questions{
+    padding: 120px 50px;
+}
+.q1{
+    display: flex;
+    justify-content: space-between;
+}
+.q1 h4{
+    padding-left: 70px;
+}
+.q1 h1{
+    font-size: 40px;
+    font-weight: 200;
+}
+.accordion{
+    width: 80%;
+    max-width: 600px;
+    padding-top: 80px;
+}
+
+.accordion-item{
+    border-radius: 5px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.accordion-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: #fff;
+    cursor: pointer;
+    transition: background-color 0.5s;
+}
+
+.accordion-header:hover{
+    background-color: #f1f1f1;
+}
+
+.accordion-symbol{
+    font-size: 18px;
+    transition: transform 1s;
+}
+
+.accordion-content{
+    display: none;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-top: 1px solid #ddd;
+}
+
+.accordion-content p{
+    margin: 0;
+}
+
+.accordion-header.active .accordion-symbol{
+    transform: rotate(180deg);
+}
+
+.accordion-header.active{
+    color: rgb(151, 151, 3);
+}
+.acco{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.accordion hr{
+    width: 650px;
+}
+.cont2{
+    display: flex;
+    flex-wrap: wrap;
+}
+.d-1{
+    background-color:var(--primart-one);
+    width: 250px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 30px;
+    margin-bottom: 10px;
+}
+.d-1 i{
+    font-size: 30px;
+}
+.d-1 h2{
+    padding-left: 20px;
+}
+.d-2{
+    width: 250px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #605b5b;
+    margin-bottom: 10px;
+}
+.d-2:hover{
+    background:var(--primart-one);
+}
+.d-2 i{
+    font-size: 30px;
+}
+.d-2 h2{
+    padding-left: 20px;
+}
+.animate {          /*animation*/
+    opacity: 0;
+    transform: translateY(50px);
+    animation: slideUp 1s forwards;
+}
+@keyframes slideUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
