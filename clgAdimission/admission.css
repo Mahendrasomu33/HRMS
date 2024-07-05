@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+.aone11{
+    background-color: rgb(205, 143, 196);
+    width: 800px;
+}
+.aone11 h1{
+    font-size: 60px;
+    padding: 80px 150px 20px 50px;
+    font-weight: 500;
+}
+.aone11 p{
+    font-size: 20px;
+    padding: 20px 150px 20px 50px;
+}
+.aone11 button{
+    height: 70px;
+    width: 150px;
+    font-size: 18px;
+    margin: 50px 150px 120px 50px;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 40px;
+}
+.aone1{
+    display: flex;
+    padding: 0px 50px 100px 50px;
+}
+.aone1 img{
+    width: 530px;
+}
+.athree1 h1{
+    font-size: 40px;
+    font-weight: 500;
+    padding-bottom: 30px;
+    padding-top: 50px;
+}
+.athree11{
+    display: flex;
+    justify-content: space-between;
+}
+.athree111{
+    width: 350px;
+    background-color: bisque;
+}
+#atwo11{
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 30px;
+    width: 300px;
+}
+#atwo11 h2{
+    padding-bottom: 20px;
+    font-weight: 500;
+}
+.athree111 hr{
+    width: 300px;
+    height: 1px;
+    background-color: black;
+}
+.athree111 p{
+    padding-bottom: 20px;
+    padding-top: 30px;
+}
+.athree1{
+    padding: 50px;
+}
+.atwo{
+    padding: 20px 50px;
+}
