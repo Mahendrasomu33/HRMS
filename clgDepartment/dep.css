@@ -1,0 +1,176 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+.department{
+    padding: 50px;
+}
+.done11{
+    background-color: rgba(212, 170, 63, 0.774);
+    width: 700px;
+}
+.done11 h1{
+    font-size: 60px;
+    padding: 80px 150px 20px 50px;
+    font-weight: 500;
+}
+.done11 p{
+    font-size: 20px;
+    padding: 20px 150px 20px 50px;
+}
+.done11 button{
+    height: 70px;
+    width: 180px;
+    font-size: 18px;
+    margin: 50px 150px 120px 50px;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 40px;
+}
+.done1{
+    display: flex;
+    padding: 0px 0px 100px 0px;
+}
+.done1 img{
+    width: 580px;
+}
+.dtwo{
+    display: flex;
+    align-items: self-start;
+    justify-content: space-between;
+    padding-bottom: 100px;
+}
+.dtwoo h1{
+    font-size: 50px;
+    font-weight: 500;
+    padding-bottom: 70px;
+}
+.dtwo1 h1{
+    padding: 30px 0px;
+    font-size: 30px;
+}
+.dtwo1 p{
+    padding-top: 30px;
+}
+.dthree{
+    display: flex;
+    justify-content: space-between;
+}
+#head3{
+    font-size: 50px;
+    font-weight: 500;
+    padding-bottom: 40px;
+}
+#tree1{
+    padding: 30px 5px;
+    font-weight: 500;
+}
+.dthree1 p{
+    padding: 30px 5px;
+}
+.dfour{
+    margin-top: 50px;
+}
+.dfour1{
+    display: flex;
+    align-items: self-start;
+    justify-content: space-between;
+    padding-bottom: 100px;
+}
+.dfour11{
+    background: skyblue;
+    padding: 50px;
+}
+.dfour11 h1{
+    font-size: 40px;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+.dfour11 h2{
+    padding: 30px 0px;
+    font-size: 30px;
+    font-weight: 500;
+}
+.dfour11 hr{
+    border: 1px solid black;
+}
+.dfour11 p{
+    padding-top: 30px;
+}
+.dfive{
+    padding-bottom: 50px;
+}
+.dfive h1{
+    font-size: 40px;
+    font-weight: 500;
+    padding-bottom: 25px;
+}
+.dfive1{
+    display: flex;
+    align-items: self-start;
+    justify-content: space-between;
+}
+.dfive11{
+    background: bisque;
+    padding: 50px 20px;
+    margin-right: 10px;
+}
+.dfive11 i{
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+.dfive11 h2{
+    font-size: 25px;
+    font-weight: 500;
+    padding-bottom: 30px;
+}
+.dfive11 hr{
+    border: 1px solid black;
+}
+.dfive11 p{
+    padding-top: 25px;
+}
+.dsix{
+    display: flex;
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+.dsix1{
+    padding: 50px 40px;
+}
+.dsix1 h1{
+    font-size: 50px;
+    font-weight: 500;
+}
+.dsix1 p{
+    font-size: 20px;
+    font-weight: 500;
+}
+.dseven{
+    display: flex;
+}
+.dseven1{
+    background: goldenrod;
+    padding: 80px 50px;
+}
+.dseven1 h1{
+    font-size: 50px;
+    font-weight: 500;
+    padding-bottom: 30px;
+}
+.dseven1 p{
+    font-size: 20px;
+    padding: 10px 0px;
+}
+.dseven1 button{
+    height: 70px;
+    width: 180px;
+    font-size: 18px;
+    margin: 80px 150px 20px 0px;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 40px;
+}

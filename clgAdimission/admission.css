@@ -73,3 +73,98 @@
 .atwo{
     padding: 20px 50px;
 }
+.afour{
+    display: flex;
+    align-items: self-start;
+    justify-content: space-between;
+    padding: 50px;
+}
+.afour1 h1{
+    font-size: 50px;
+    font-weight: 500;
+    margin-top: 90px;
+}
+.accordion{            /* afour drop*/
+    width: 80%;
+    width: 600px;
+    padding-top: 80px;
+}
+
+.accordion-item{
+    border-radius: 5px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.accordion-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: #fff;
+    cursor: pointer;
+    transition: background-color 3s;
+}
+
+.accordion-header:hover{
+    background-color: #f1f1f1;
+}
+
+.accordion-symbol{
+    font-size: 18px;
+    transition: transform 3s;
+}
+
+.accordion-content{
+    display: none;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-top: 1px solid #ddd;
+}
+
+.accordion-content p{
+    margin: 0;
+}
+
+.accordion-header.active .accordion-symbol{
+    transform: rotate(0deg);
+}
+.acco{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.accordion hr{
+    width: 600px;
+}
+.afive{
+    padding: 50px;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+.afive1 .cont{
+    background:rgb(205, 143, 196) ;
+    padding: 50px 50px;
+}
+.cont h1{
+    font-size: 50px;
+    font-weight: 500;
+}
+.cont button{
+    height: 70px;
+    width: 190px;
+    font-size: 18px;
+    margin: 50px 150px 0px 0px;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 40px;
+}
+.afive2 .cont{
+    background: bisque ;
+    padding: 50px 50px;
+    margin-top: 50px;
+}
