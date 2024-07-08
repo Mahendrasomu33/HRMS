@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Underline Input Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
+
+        .form-container {
+            background-color: #dce8a5;
+            padding: 80px;
+            border-radius: 0px;
+            box-shadow: 0 0px 0px rgba(0, 0, 0, 0.1);
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+            position: relative;
+            width: 400px;
+        }
+
+        .form-group input {
+            width: 100%;
+            padding: 10px 0;
+            border: none;
+            border-bottom: 2px solid #353535;
+            outline: none;
+            font-size: 26px;
+            background: #dce8a5;
+        }
+
+        .form-group input:focus {
+            border-bottom-color: #007BFF;
+        }
+
+        .form-group label {
+            position: absolute;
+            top: 10px;
+            left: 0;
+            pointer-events: none;
+            transition: all 0.3s ease;
+            color: #999;
+        }
+
+        .form-group input:focus + label,
+        .form-group input:not(:placeholder-shown) + label {
+            top: -1px;
+            font-size: 12px;
+            color: #559deb;
+        }
+        .form-container button{
+            background: black;
+            color: white;
+            padding: 20px 40px;
+            border: none;
+            border-radius: 30px;
+            font-size: 18px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <form>
+            <div class="form-group">
+                <input type="text" id="name" required placeholder="Full Name ">
+                <label for="name"></label>
+            </div>
+            <div class="form-group">
+                <input type="email" id="email" required placeholder="Email ">
+                <label for="email"></label>
+            </div>
+            <div class="form-group">
+                <input type="number" id="password" required placeholder="Phone ">
+                <label for="password"></label>
+            </div>
+            <div class="form-group">
+                <input type="text" id="name" required placeholder="What Interests You? ">
+                <label for="name"></label>
+            </div>
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+    <img src="./images/desk1.webp" height="526px" width="500px">
+</body>
+</html>
