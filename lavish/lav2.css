@@ -1,0 +1,185 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+header{
+    height: 25px;
+    width: 100%;
+    background-color: black;
+    color: rgb(209, 207, 207);
+    text-align: center;
+    position: fixed;
+    top: 0;
+}
+nav{
+    display: flex;
+    margin-top: 30px;
+}
+nav ul{
+    display: flex;
+    font-size: 16px;
+    
+}
+nav ul li{
+    list-style: none;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+nav ul li a{
+    color: black;
+}
+nav h5{ 
+    margin-left: 200px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    color: black;
+}
+.search{
+    height: 20px;
+    width: 205px;
+    border: 1px black solid;
+    margin-left: 300px;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+.search ion-icon{
+    font-size: 16px;
+    margin-top: 0px;
+}
+.search input{
+    margin-left: 10px;
+}
+nav ion-icon{
+   font-size: 20px;
+   margin-top: 5px;
+}
+nav{
+    margin-bottom: 60px;
+}
+.lshop{
+    padding: 10px;
+}
+.lshop .lp1{
+    background: rosybrown;
+    width: 100px;
+    padding: 10px;
+    border-radius: 20px;
+}
+.lshop .lh1{
+    font-size: 60px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight:lighter;
+}
+.ldiv1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 10px;
+}
+#products{
+    padding: 12px 40px;
+    border: 1px solid rgb(114, 113, 113);
+    border-radius: 20px;
+}
+.lcards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.lcards .lcard1 p{
+    padding: 10px 0px;
+}
+.lcards .lcard1 img{
+    padding-top: 50px;
+    transition: transform 0.2s ease;
+}
+.lcards .lcard1 img:hover{
+    transform: scale(1.04);
+}
+.btnn{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 100px;
+}
+.btnn .btn1{
+    padding: 16px 25px;
+    background: transparent;
+    border: 1px solid black;
+    border-radius: 30px;
+    margin-left: 10px;
+}
+.btnn .btn1:hover{
+    background-color: black;
+    color: white;
+}
+footer{
+    height: 400px;
+    width: 100%;
+    background-color: black;
+    color: whitesmoke;
+    display: flex;
+}
+footer ul li{
+    list-style: none;
+    margin-top: 20px;
+}
+footer .foot{
+    margin-left: 50px;
+}
+footer .foot h5{
+    font-size: 20px;
+}
+.foot11{
+    margin-top: 20px;
+}
+.foot11 p{
+    margin-top: 10px;
+}
+.foot12{
+    margin-top: 20px;
+}
+.foot12 p{
+    margin-top: 10px;
+}
+.foot13{
+    margin-top: 20px;
+}
+.foot13 p{
+    margin-top: 10px;
+}
+.foot2 h5{
+    margin-top: 20px;
+    font-size: 20px;
+    margin-left: 50px;
+}
+.foot2 form{
+    margin-left: 50px;
+}
+form input{
+    margin-top: 20px;
+    height: 30px;
+    width: 200px;
+    background-color: black;
+    border: 1px white solid;
+    border-radius: 10px;
+    outline: none;
+    color: white;
+    
+}
+form button{
+    margin-top: 30px;
+    height: 30px;
+    width: 200px;
+    background-color: black;
+    color: white;
+    border: 1px white solid;
+    border-radius: 10px;
+}
+footer hr{
+    color: white;
+    margin-top: 50px;
+}
