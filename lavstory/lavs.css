@@ -1,0 +1,362 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+header{
+    height: 25px;
+    width: 100%;
+    background-color: black;
+    color: rgb(209, 207, 207);
+    text-align: center;
+    position: fixed;
+    top: 0;
+}
+nav{
+    display: flex;
+    margin-top: 30px;
+}
+nav ul{
+    display: flex;
+    font-size: 16px;
+    
+}
+nav ul li{
+    list-style: none;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+nav ul li a{
+    color: black;
+}
+nav h5{ 
+    margin-left: 200px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    color: black;
+}
+.search{
+    height: 20px;
+    width: 205px;
+    border: 1px black solid;
+    margin-left: 300px;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+.search ion-icon{
+    font-size: 16px;
+    margin-top: 0px;
+}
+.search input{
+    margin-left: 10px;
+}
+nav ion-icon{
+   font-size: 20px;
+   margin-top: 5px;
+}
+nav{
+    margin-bottom: 60px;
+}
+.lshop{
+    padding: 10px;
+}
+.lshop .lp1{
+    background: rosybrown;
+    width: 100px;
+    padding: 10px;
+    border-radius: 20px;
+}
+.lshop .lh1{
+    font-size: 60px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight:lighter;
+}
+.ldiv1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 10px;
+}
+#products{
+    padding: 12px 40px;
+    border: 1px solid rgb(114, 113, 113);
+    border-radius: 20px;
+}
+option{
+    margin: 18px 0px;
+    border: 1px solid black;
+}
+.shead1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.shead11{
+    width: 600px;
+    margin-right: 100px;
+}
+.shead1 img{
+    padding: 30px 0px;
+}
+#img1{
+    padding-left: 200px;
+}
+.shead2{
+    display: flex;
+    margin: 50px 0px;
+}
+.shead21{
+    text-align: center;
+    padding: 130px 10px;
+    background: rosybrown;
+}
+.shead21 p{
+    font-size: 35px;
+    font-weight: 100;
+    
+}
+.shead2 .btn1{
+    padding: 16px 25px;
+    background: transparent;
+    border: 1px solid black;
+    border-radius: 30px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.shead2 .btn1:hover{
+    background-color: black;
+    color: white;
+}
+.shead3{
+    display: flex;
+    margin: 100px 0px;
+}
+.shead31{
+    padding: 60px 30px;
+}
+.shead31 h1,p{
+    padding: 10px 0px;
+}
+.shead311{
+    display: flex;
+    padding: 40px 0px;
+}
+.shead31 .btn2{
+    padding: 16px 25px;
+    background: transparent;
+    border: 1px solid black;
+    border-radius: 30px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.shead31 .btn2:hover{
+    background-color: black;
+    color: white;
+}
+.shead4{
+    text-align: center;
+}
+.shead5{
+    display: flex;
+    justify-content: space-between;
+    margin: 120px 0px;
+}
+.shead6{
+    margin: 100px 0px;
+}
+.shead5{
+    text-align: center;
+}
+.shead51 p,h2{
+    text-align: center;
+}
+.shead5 .shead51 i{
+    font-size: 50px;
+    padding: 20px 0px;
+    text-align: center;
+}
+.shead6{
+    text-align: center;
+}
+.shead6 .scards{
+    display: flex;
+    padding: 20px 0px;
+}
+.shead6 img{
+    padding-top: 40px;
+    transition: transform 0.6s ease;
+}
+.shead6 img:hover{
+    transform: scale(1.04);
+}
+.shead7{
+    background: rosybrown;
+    text-align: center;
+    padding: 80px 180px;
+}
+.shead7 .para1{
+    font-size: 20px;
+    padding: 30px 0px;
+}
+.shead8{
+    text-align: center;
+    margin: 120px 0px;
+}
+.shead81{
+    display: flex;
+    padding-top: 30px;
+}
+.afour{
+    display: flex;
+    align-items: self-start;
+    justify-content: space-between;
+    padding: 50px;
+}
+.afour1 h1{
+    font-size: 50px;
+    font-weight: 500;
+    margin-top: 90px;
+}
+.accordion{            /* afour drop*/
+    width: 80%;
+    width: 600px;
+    padding-top: 80px;
+}
+
+.accordion-item{
+    border-radius: 5px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.accordion-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: #fff;
+    cursor: pointer;
+    transition: background-color 3s;
+}
+
+.accordion-header:hover{
+    background-color: #f1f1f1;
+}
+
+.accordion-symbol{
+    font-size: 18px;
+    transition: transform 3s;
+}
+
+.accordion-content{
+    display: none;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-top: 1px solid #ddd;
+}
+
+.accordion-content p{
+    margin: 0;
+}
+
+.accordion-header.active .accordion-symbol{
+    transform: rotate(0deg);
+}
+.acco{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.accordion hr{
+    width: 600px;
+}
+.lcards{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+.lcards .lcard1 p{
+    padding: 10px 0px;
+}
+.lcards .lcard1 h3{
+    padding: 10px 0px;
+}
+.lcards .lcard1 img{
+    padding-top: 50px;
+    transition: transform 0.8s ease;
+}
+.lcards .lcard1 img:hover{
+    transform: scale(1.04);
+}
+footer{
+    height: 400px;
+    width: 100%;
+    background-color: black;
+    color: whitesmoke;
+    display: flex;
+    margin-top: 70px;
+}
+footer ul li{
+    list-style: none;
+    margin-top: 20px;
+}
+footer .foot{
+    margin-left: 50px;
+}
+footer .foot h5{
+    font-size: 20px;
+}
+.foot11{
+    margin-top: 20px;
+}
+.foot11 p{
+    margin-top: 10px;
+}
+.foot12{
+    margin-top: 20px;
+}
+.foot12 p{
+    margin-top: 10px;
+}
+.foot13{
+    margin-top: 20px;
+}
+.foot13 p{
+    margin-top: 10px;
+}
+.foot2 h5{
+    margin-top: 20px;
+    font-size: 20px;
+    margin-left: 50px;
+}
+.foot2 form{
+    margin-left: 50px;
+}
+form input{
+    margin-top: 20px;
+    height: 30px;
+    width: 200px;
+    background-color: black;
+    border: 1px white solid;
+    border-radius: 10px;
+    outline: none;
+    color: white;
+    
+}
+form button{
+    margin-top: 30px;
+    height: 30px;
+    width: 200px;
+    background-color: black;
+    color: white;
+    border: 1px white solid;
+    border-radius: 10px;
+}
+footer hr{
+    color: white;
+    margin-top: 50px;
+}
