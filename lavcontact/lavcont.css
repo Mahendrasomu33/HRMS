@@ -1,0 +1,329 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+header{
+    height: 25px;
+    width: 100%;
+    background-color: black;
+    color: rgb(209, 207, 207);
+    text-align: center;
+    position: fixed;
+    top: 0;
+}
+nav{
+    display: flex;
+    margin-top: 30px;
+}
+nav ul{
+    display: flex;
+    font-size: 16px;
+    
+}
+nav ul li{
+    list-style: none;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+nav ul li a{
+    color: black;
+}
+nav h5{ 
+    margin-left: 200px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    color: black;
+}
+.search{
+    height: 20px;
+    width: 205px;
+    border: 1px black solid;
+    margin-left: 300px;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+.search ion-icon{
+    font-size: 16px;
+    margin-top: 0px;
+}
+.search input{
+    margin-left: 10px;
+}
+nav ion-icon{
+   font-size: 20px;
+   margin-top: 5px;
+}
+nav{
+    margin-bottom: 60px;
+}
+.form1 form input{
+    background: none;
+    outline: none;
+    color: black;
+    margin: 10px;
+    border-radius: none;
+}
+textarea{
+    outline: none;
+    border-bottom: 1px solid black;
+    margin-top: 50px;
+    width: 500px;
+}
+.form3{
+    margin: 20px;
+}
+.form2{
+    border-bottom: 1px solid black;
+    margin: 20px;
+}
+form{
+    display: flex;
+    flex-wrap: wrap;
+}
+button{
+    margin: 20px;
+    padding: 16px 25px;
+    background: transparent;
+    border: 1px solid black;
+    border-radius: 30px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+button:hover{
+    background-color: black;
+    color: white;
+}
+.cont1{
+    display: flex;
+}
+.contact2{
+    display: flex;
+    padding: 100px 10px 20px 40px;
+}
+.contact2 .contact21{
+    padding: 100px 10px 80px 40px;
+}
+.para1{
+    padding: 20px 0px;
+}
+.para1 i{
+    font-size: 20px;
+    padding-left: 30px;
+    margin-left: 10px;
+    border: 1px solid black;
+    padding: 15px;
+    border-radius: 50%;
+}
+.ldiv1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 10px;
+}
+#products{
+    padding: 12px 40px;
+    border: 1px solid rgb(114, 113, 113);
+    border-radius: 20px;
+}
+option{
+    margin: 18px 0px;
+    border: 1px solid black;
+}
+.shead1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.shead11{
+    width: 600px;
+    margin-right: 100px;
+}
+.shead1 img{
+    padding: 30px 0px;
+}
+#img1{
+    padding-left: 200px;
+}
+
+.shead5{
+    display: flex;
+    justify-content: space-between;
+    margin: 120px 0px;
+}
+.shead6{
+    margin: 100px 0px;
+}
+.shead5{
+    text-align: center;
+}
+.shead51 p,h2{
+    text-align: center;
+}
+.shead5 .shead51 i{
+    font-size: 50px;
+    padding: 20px 0px;
+    text-align: center;
+}
+.shead8{
+    text-align: center;
+    margin: 120px 0px;
+}
+.shead81{
+    display: flex;
+    padding-top: 30px;
+}
+.afour{
+    display: flex;
+    align-items: self-start;
+    justify-content: space-between;
+    padding: 50px;
+}
+.afour1 h1{
+    font-size: 50px;
+    font-weight: 500;
+    margin-top: 90px;
+}
+.accordion{            /* afour drop*/
+    width: 80%;
+    width: 600px;
+    padding-top: 80px;
+}
+
+.accordion-item{
+    border-radius: 5px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.accordion-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: #fff;
+    cursor: pointer;
+    transition: background-color 3s;
+}
+
+.accordion-header:hover{
+    background-color: #f1f1f1;
+}
+
+.accordion-symbol{
+    font-size: 18px;
+    transition: transform 3s;
+}
+
+.accordion-content{
+    display: none;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-top: 1px solid #ddd;
+}
+
+.accordion-content p{
+    margin: 0;
+}
+
+.accordion-header.active .accordion-symbol{
+    transform: rotate(0deg);
+}
+.acco{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.accordion hr{
+    width: 600px;
+}
+.lcards{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+.lcards .lcard1 p{
+    padding: 10px 0px;
+}
+.lcards .lcard1 h3{
+    padding: 10px 0px;
+}
+.lcards .lcard1 img{
+    padding-top: 50px;
+    transition: transform 0.8s ease;
+}
+.lcards .lcard1 img:hover{
+    transform: scale(1.04);
+}
+footer{
+    height: 400px;
+    width: 100%;
+    background-color: black;
+    color: whitesmoke;
+    display: flex;
+    margin-top: 70px;
+}
+footer ul li{
+    list-style: none;
+    margin-top: 20px;
+}
+footer .foot{
+    margin-left: 50px;
+}
+footer .foot h5{
+    font-size: 20px;
+}
+.foot11{
+    margin-top: 20px;
+}
+.foot11 p{
+    margin-top: 10px;
+}
+.foot12{
+    margin-top: 20px;
+}
+.foot12 p{
+    margin-top: 10px;
+}
+.foot13{
+    margin-top: 20px;
+}
+.foot13 p{
+    margin-top: 10px;
+}
+.foot2 h5{
+    margin-top: 20px;
+    font-size: 20px;
+    margin-left: 50px;
+}
+.foot2 form{
+    margin-left: 50px;
+}
+form input{
+    margin-top: 20px;
+    height: 30px;
+    width: 200px;
+    background-color: black;
+    border: 1px white solid;
+    border-radius: 10px;
+    outline: none;
+    color: white;
+    
+}
+form button{
+    margin-top: 30px;
+    height: 30px;
+    width: 200px;
+    background-color: black;
+    color: white;
+    border: 1px white solid;
+    border-radius: 10px;
+}
+footer hr{
+    color: white;
+    margin-top: 50px;
+}
