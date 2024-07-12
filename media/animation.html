@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>animation-duration</title>
+    <style>
+        .goo{
+    height: 300px;
+    width: 200px;
+    background-color: black;
+    position: relative;
+    animation-name: goo1;
+    animation-duration: 5s;
+}
+@keyframes goo1{
+    from{background-color: black; left: 300px;}
+    to{background-color: blue;}
+    to{background-color: red;}
+}
+    </style>
+</head>
+<body>
+    <div class="goo"></div>
+
+</body>
+</html>
