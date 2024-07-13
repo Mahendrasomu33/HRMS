@@ -3,25 +3,99 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>animation-duration</title>
-    <style>
-        .goo{
+    <title>Document</title>
+<style> 
+.one {
+  width: 100px;
+  height: 50px;
+  background-color: rgb(0, 217, 255);
+  font-weight: bold;
+  position: relative;
+  border: 5px solid green;
+  animation: mymove 15s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+
+}
+
+#div1 {animation-timing-function: linear;}
+#div2 {animation-timing-function: ease;}
+#div3 {animation-timing-function: ease-in;}
+#div4 {animation-timing-function: ease-out;}
+#div5 {animation-timing-function: ease-in-out;}
+
+@keyframes mymove {
+  from {left: 0px;}
+  to {left: 600px;}
+}
+div {
+  width: 500px;
+  height: 200px;
+  background-color: red;
+  position: relative;
+  animation-name: example;
+  border: 2px solid orange;
+  animation-duration: 14s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  75% {background-color: antiquewhite; left: 500px; top: 300px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+.raju {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: relative;
+  border: 5px solid black;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: 2;
+  animation-direction: alternate-reverse;  
+  transform: matrix(1, 0, 0.5, 1, 150, 0);
+rotate: 360deg;
+}
+#text{
+    height: 100px;
+    width: 100px;
+    cursor: pointer;
+    transition: width 2s, height 4s;
+}
+#text:hover{
+    width: 300px;
     height: 300px;
-    width: 200px;
-    background-color: black;
-    position: relative;
-    animation-name: goo1;
-    animation-duration: 5s;
 }
-@keyframes goo1{
-    from{background-color: black; left: 300px;}
-    to{background-color: blue;}
-    to{background-color: red;}
+
+@keyframes example {
+  0%   {background-color:black; left:0px; top:0px;}
+  25%  {background-color:greenyellow; left:200px; top:0px;}
+  50%  {background-color:palevioletred; left:400px; top:200px;}
+  75%  {background-color:orchid; left:0px; top:200px;}
+  100% {background-color:goldenrod; left:0px; top:0px;}
 }
-    </style>
+</style>
 </head>
 <body>
-    <div class="goo"></div>
 
+<h1>CSS Animation</h1>
+<p>The animation-direction property specifies whether an animation should be played forwards, backwards or in alternate cycles. The following example uses the value "alternate-reverse" to make the animation run backwards first, then forwards:</p>
+
+<div class="raju"></div><br><br>
+<div><img src="../images1/l12.jpg" height="200px" width="500px"></div>
+<div id="div1" class="one">linear one</div>
+<div id="div2" class="one">ease
+    <h1>Second</h1>
+</div>
+<div id="div3" class="one">ease-in</div>
+<div id="div4" class="one">ease-out</div>
+<div id="div5" class="one">ease-in-out</div>
+<h1 id="text"> hello</h1>
 </body>
 </html>
+
+
