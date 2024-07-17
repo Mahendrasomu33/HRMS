@@ -6,12 +6,14 @@
 * {box-sizing: border-box;}
 body {font-family: Verdana, sans-serif;}
 .mySlides {display: none;}
-img {vertical-align: middle;}
 
 .slideshow-container {
   max-width: 1000px;
   position: relative;
   margin: auto;
+}
+.slideshow-container .mySlides img{
+  vertical-align: middle;
 }
 
 .text {
@@ -63,47 +65,45 @@ img {vertical-align: middle;}
 </style>
 </head>
 <body>
-
-<h2 style="text-align: center; color: rgb(108, 137, 127);">Home Page</h2>
-<div class="slideshow-container">
-
-<div class="mySlides fade">
+<div class="hero-section">
+  <h2 style="text-align: center; color: rgb(108, 137, 127);">Home Page</h2>
+  <div class="slideshow-container">
+  <div class="mySlides fade">
     <h1>Latest Courses:</h1>
-  <div class="numbertext"></div>
-  <img src="../images2/img1.png" style="width:24%" height="370px">
-  <img src="../images2/img2.avif" style="width:24%" height="370px">
-  <img src="../images2/img3.jpg" style="width:24%" height="370px">
-  <img src="../images2/img4.avif" style="width:24%" height="370px">
-  <div class="text">Caption Text</div>
-</div>
+    <div class="numbertext"></div>
+    <img src="../images2/img1.png" style="width:24%" height="370px">
+    <img src="../images2/img2.avif" style="width:24%" height="370px">
+    <img src="../images2/img3.jpg" style="width:24%" height="370px">
+    <img src="../images2/img4.avif" style="width:24%" height="370px">
+    <div class="text">Caption Text</div>
+  </div>
 
-<div class="mySlides fade">
+  <div class="mySlides fade">
     <h1>Top Educators:</h1>
-  <div class="numbertext"></div>
-  <img src="../images1/l31.avif" style="width:24%" height="370px">
-  <img src="../images1/l29.jpg" style="width:24%" height="370px">
-  <img src="../images1/l30.avif" style="width:24%" height="370px">
-  <img src="../images1/l28.jfif" style="width:24%" height="370px">
-  <div class="text">Caption Two</div>
-</div>
+    <div class="numbertext"></div>
+    <img src="../images1/l31.avif" style="width:24%" height="370px">
+    <img src="../images1/l29.jpg" style="width:24%" height="370px">
+    <img src="../images1/l30.avif" style="width:24%" height="370px">
+    <img src="../images1/l28.jfif" style="width:24%" height="370px">
+    <div class="text">Caption Two</div>
+  </div>
 
-<div class="mySlides fade">
+  <div class="mySlides fade">
     <h1>Student Testimonials</h1>
-  <div class="numbertext"></div>
-  <img src="../images2/img6.jpg" style="width:48%" height="300px">
-  <img src="../images2/img7.jpg" style="width:48%" height="300px">
-  <div class="text">Caption Three</div>
-</div>
+    <div class="numbertext"></div>
+    <img src="../images2/img6.jpg" style="width:48%" height="300px">
+    <img src="../images2/img7.jpg" style="width:48%" height="300px">
+    <div class="text">Caption Three</div>
+  </div>
 
+  </div>
+  <br>
+  <div style="text-align:center">
+    <span class="dot"></span> 
+    <span class="dot"></span> 
+    <span class="dot"></span> 
+  </div>
 </div>
-<br>
-
-<div style="text-align:center">
-  <span class="dot"></span> 
-  <span class="dot"></span> 
-  <span class="dot"></span> 
-</div>
-
 <script>
 let slideIndex = 0;
 showSlides();

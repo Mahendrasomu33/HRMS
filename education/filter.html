@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Listings</title>
+    <link rel="stylesheet" href="filter.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Course Listings</h1>
+        <div class="search-filter">
+            <input type="text" id="searchInput" placeholder="Search for courses...">
+            <select id="categoryFilter">
+                <option value="all">All Categories</option>
+                <option value="STEM">FRONT-END</option>
+                <option value="Humanities">BACK-END</option>
+                <option value="Arts">DATA-BASE</option>
+            </select>
+        </div>
+        <ul id="courseList">
+            <li class="course-item" data-category="STEM"><a href="https://www.w3schools.com/html/default.asp">HTML</a></li>
+            <li class="course-item" data-category="STEM"><a href="#">CSS</a></li>
+            <li class="course-item" data-category="STEM"><a href="#">JAVA SCRIPT</a></li>
+            <li class="course-item" data-category="Humanities"><a href="#">PYTHON</a></li>
+            <li class="course-item" data-category="Humanities"><a href="#">JAVA</a></li>
+            <li class="course-item" data-category="Humanities"><a href="#">PHP</a></li>
+            <li class="course-item" data-category="Arts"><a href="#">SQL</a></li>
+            <li class="course-item" data-category="Arts"><a href="#">MYSQL</a></li>
+            <li class="course-item" data-category="Arts"><a href="#">MANGODB</a></li>
+        </ul>
+    </div>
+    <script src="filter.js"></script>
+</body>
+</html>

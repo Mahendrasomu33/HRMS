@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="nav1.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <a href="index.html"><h1>EDUNEXT</h1></a>
+        <ul class="nav-list">
+            <li class="nav-item"><a href="index.html">HOME</a></li>
+            <li class="nav-item"><a href="#">About</a></li>
+            <li class="nav-item"><a href="#">Courses</a></li>
+            <div class="dropdown">
+                <li class="nav-item dropbtn"><a href="#">Educational_portal</a><i class="fa fa-chevron-circle-down" aria-hidden="true"></i>
+                </li>
+                <div class="dropdown-content">
+                    <a href="#">Resourses</a>
+                    <a href="#">Classes</a>
+                    
+                  </div>
+            </div>
+            <li class="nav-item"><a href="#">Blog</a></li>
+            <li class="nav-item"><button><a href="#">ContactUs</a></button></li>
+        </ul>
+    </nav>
+      <div class="hero-section">
+        <h2 style="text-align: center; color: rgb(108, 137, 127);">Home Page</h2>
+        <div class="slideshow-container">
+        <div class="mySlides fade">
+          <h1>Latest Courses:</h1>
+          <div class="numbertext"></div>
+          <img src="../images2/img1.png" style="width:24%" height="370px">
+          <img src="../images2/img2.avif" style="width:24%" height="370px">
+          <img src="../images2/img3.jpg" style="width:24%" height="370px">
+          <img src="../images2/img4.avif" style="width:24%" height="370px">
+          <div class="text">Caption Text</div>
+        </div>
+      
+        <div class="mySlides fade">
+          <h1>Top Educators:</h1>
+          <div class="numbertext"></div>
+          <img src="../images1/l31.avif" style="width:24%" height="370px">
+          <img src="../images1/l29.jpg" style="width:24%" height="370px">
+          <img src="../images1/l30.avif" style="width:24%" height="370px">
+          <img src="../images1/l28.jfif" style="width:24%" height="370px">
+          <div class="text">Caption Two</div>
+        </div>
+      
+        <div class="mySlides fade">
+          <h1>Student Testimonials</h1>
+          <div class="numbertext"></div>
+          <img src="../images2/img6.jpg" style="width:48%" height="300px">
+          <img src="../images2/img7.jpg" style="width:48%" height="300px">
+          <div class="text">Caption Three</div>
+        </div>
+      
+        </div>
+        <br>
+        <div style="text-align:center">
+          <span class="dot"></span> 
+          <span class="dot"></span> 
+          <span class="dot"></span> 
+        </div>
+      </div>
+
+      <script>
+        let slideIndex = 0;
+        showSlides();
+        
+        function showSlides() {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          let dots = document.getElementsByClassName("dot");
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          slideIndex++;
+          if (slideIndex > slides.length) {slideIndex = 1}    
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+          setTimeout(showSlides, 5000); 
+        }
+        </script>
+   </body>
+</html>
