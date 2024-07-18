@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enrollment Options</title>
+    <link rel="stylesheet" href="enroll.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="head1">Prerequisites And Enrollment Options</h1>
+        <div class="course" data-course="html">
+            <h2>HTML Course</h2>
+            <p>Learn the basics of HTML.</p>
+            <button onclick="showDetails('html')">View Prerequisites</button>
+            <div class="details" id="html">
+                <p>Prerequisites:
+                    <ul>
+                        <h1>HTML Prerequisites: </h1>
+                        <li>Basic understanding of using computers.</li>
+                        <li>Familiarity with web browsers and internet usage.</li>
+                    </ul>
+                </p>
+                <button onclick="enroll('HTML Course')">Enroll Now</button>
+            </div>
+        </div>
+        <div class="course" data-course="css">
+            <h2>CSS Course</h2>
+            <p>Learn the basics of CSS.</p>
+            <button onclick="showDetails('css')">View Prerequisites</button>
+            <div class="details" id="css">
+                <ul>
+                    <h1>CSS Prerequisites:</h1>
+                    <li>Basic understanding of HTML.</li>
+                    <li>Knowledge of web page structure.</li>
+                </ul>
+                <button onclick="enroll('CSS Course')">Enroll Now</button>
+            </div>
+        </div>
+        <div class="course" data-course="javascript">
+            <h2>JavaScript Course</h2>
+            <p>Learn the basics of JavaScript.</p>
+            <button onclick="showDetails('javascript')">View Prerequisites</button>
+            <div class="details" id="javascript">
+                <ul>
+                    <h1>JavaScript Prerequisites:</h1>
+                    <li>Basic understanding of HTML and CSS.</li>
+                    <li>Logical thinking and basic programming concepts (optional but helpful).</li>
+                </ul>
+                <button onclick="enroll('JavaScript Course')">Enroll Now</button>
+            </div>
+        </div>
+    </div>
+    <script src="enroll.js"></script>
+</body>
+</html>

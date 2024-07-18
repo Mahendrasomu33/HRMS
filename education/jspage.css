@@ -1,0 +1,36 @@
+.jscontainer{
+    background-image: linear-gradient(to right, #f8f8f9,#f6f7f9,#c5d5dd,#A7E6FF);
+}
+.jshead{
+    text-align: center;
+    color:#050C9C;
+    font-family: sans-serif;
+    font-size: 50px;
+}
+ul li{
+    font-size: 20px;
+}
+.jshead2{
+    color: #3572EF;
+    padding-left: 30px;
+}
+img{
+    text-align: center;
+    margin-left: 100px;
+}
+.head3{
+    padding-left: 30px;
+    color: #3ABEF9;
+}
+pre{
+    font-size: 16px;
+    font-weight: bold;
+}
+.sha1{
+    border: 8px solid #A7E6FF;
+    border-radius: 10px;
+    padding: 10px 0px;
+}
+.jsfour{
+    text-align: center;
+}

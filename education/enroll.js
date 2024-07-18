@@ -1,0 +1,13 @@
+function showDetails(courseId) {
+    const details = document.getElementById(courseId);
+    if (details.style.display === 'none' || details.style.display === '') {
+        details.style.display = 'block';
+    } else {
+        details.style.display = 'none';
+    }
+}
+
+function enroll(courseName) {
+    alert(`You have enrolled in the ${courseName}!`);
+}
+ 
